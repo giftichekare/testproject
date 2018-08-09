@@ -1,0 +1,24 @@
+class Employee:
+ pass
+
+emp_1 = Employee()
+emp_2 = Employee()
+
+print(emp_1)
+print(emp_2)
+
+emp_1.id = 'NVP001'
+emp_1.first = 'Gift'
+emp_1.last = 'Ichekare'
+emp_1.email = 'gift.ichgekare@gmail.com'
+emp_1.pay = 'N600,000.00'
+
+emp_2.id = 'NVP002'
+emp_2.fist = 'Israel'
+emp_2.last = 'Erobo'
+emp_2.email = 'israel.ichekare@gmail.com'
+emp_2.pay = 'N620,000.00'
+
+print(emp_1.email)
+print(emp_2.email)
+print(emp_2.pay)
